@@ -28,7 +28,6 @@ func addFive(number: Int) -> Int{
     for char in strNumber.sorted(by: >){
         result += String(char)
     }
-    print(result)
     let resultInt = Int(result)!
     return resultInt
 }
